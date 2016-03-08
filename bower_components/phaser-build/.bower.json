@@ -1,0 +1,31 @@
+{
+  "name": "phaser-build",
+  "authors": [
+    "Nounours Heureux <schtroumps31@gmail.com>"
+  ],
+  "description": "The Phaser latest builds",
+  "main": "phaser.js",
+  "keywords": [
+    "phaser",
+    "build"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/photonstorm/phaser",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "phaser": null
+  },
+  "_release": "a5dda95710",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a5dda95710e2a4d7ef58fbe3730684a8d6227382"
+  },
+  "_source": "git://github.com/nounoursheureux/phaser-build.git",
+  "_target": "*",
+  "_originalSource": "phaser-build",
+  "_direct": true
+}
