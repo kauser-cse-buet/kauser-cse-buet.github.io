@@ -32,14 +32,10 @@ var mainState = {
     },
 
     update: function(){
-        console.log("this.bird.position.y", this.bird.position.y);
-        console.log("gamescreenHeight", gameScreenHeight);
-
         if(this.bird.position.y > (gameScreenHeight - this.bird.height)){
             this.bird.body.gravity.y = 0;
             this.bird.body.velocity.y = 0;
         }
-
     },
 
     // make the bird jump.
